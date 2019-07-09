@@ -10,7 +10,7 @@
 
   h1, h2, h3, h4, h5, h6
   {
-    color: #cecece;
+    color: #cecece !important;
   }
 
   ._4sp8
@@ -288,7 +288,7 @@
     border-top-color: #3e3e3e;
   }
 
-  .fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments
+  .fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments 
   {
     background: #1e1e1e;
   }
@@ -561,3 +561,8 @@
     background-color: #1e1e1e;
   }
 
+  /* Chat box */
+  ._5irm
+  {
+	background-color: #1e1e1e !important;
+  }
