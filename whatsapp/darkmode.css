@@ -226,7 +226,6 @@
 ==/UserStyle== */
 
 
-@-moz-document domain("web.whatsapp.com") {
   :root {
     --dark: #272c35;
     --darker: #1f232a;
@@ -238,11 +237,9 @@
     --mred: #A3525B;
     --mgreen: #70A352;
     --mblue: #527AA3;
-    --hover-delay: 0.8s
-;
+    --hover-delay: 0.8s;
     --image: url(https://media.discordapp.net/attachments/310799529161129984/417408747812552715/zilesanamin.jpg);
-    --emojiOpacity: 0.75
-;
+    --emojiOpacity: 0.75;
     --version: "WhatsApp by Mew v1.5.1";
     --message: "Updated on 27th of September. ";
     --changes: "See the changelog at: https://github.com/vednoc/onyx/releases";
@@ -1344,15 +1341,3 @@
     /* App background. */
     /*[[background]]*/
   }
-
-  /* "Privacy mode." */
-  /*[[blurContacts]]*/
-  /*[[blurImages]]*/
-
-  /* Compact mode. */
-  /*[[compactMode]]*/
-
-  /* Custom CSS rules. */
-  /*[[customRules]]*/
-}
-
