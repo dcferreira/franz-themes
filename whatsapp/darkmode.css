@@ -5,7 +5,7 @@
 @homepageURL  https://github.com/vednoc/onyx
 @supportURL   https://github.com/vednoc/onyx/issues
 @updateURL    https://raw.githubusercontent.com/vednoc/onyx/master/WhatsApp.user.css
-@version      1.5.1
+@version      1.5.2
 @author       vednoc
 @license      MIT
 @preprocessor uso
@@ -240,8 +240,8 @@
     --hover-delay: 0.8s;
     --image: url(https://media.discordapp.net/attachments/310799529161129984/417408747812552715/zilesanamin.jpg);
     --emojiOpacity: 0.75;
-    --version: "WhatsApp by Mew v1.5.1";
-    --message: "Updated on 27th of September. ";
+    --version: "WhatsApp by Mew v1.5.2";
+    --message: "Updated on 9th of October. Fixed bubbles once again. ";
     --changes: "See the changelog at: https://github.com/vednoc/onyx/releases";
   }
 
@@ -391,6 +391,7 @@
         border: 0px solid var(--dark);
         background-color: var(--dark) !important; }
       /* Input element. */
+      .ZP8RM ._183ES,
       .ZP8RM label input {
         color: var(--light);
         background-color: transparent; }
@@ -405,8 +406,11 @@
     color: var(--accent) !important;
     background-color: transparent !important; }
     /* Hide borders. */
-    ._2DxRd {
-      border-color: var(--darker) !important; }
+    ._2DxRd, ._39cGk {
+      border-color: var(--shadow) !important; }
+    /* Input text color. */
+    ._44uDJ {
+      color: var(--light) !important; }
 
   /* Search results. */
   #side ._1AKfk {
@@ -719,6 +723,7 @@
   ._1WMT2::before, ._1WMT2::after {
     display: none !important; }
     /* Selected message. */
+    ._1WMT2._2V_Wj,
     ._1WMT2._2nA3s,
     ._1WMT2:hover {
       transition: 200ms ease-in-out !important;
@@ -800,7 +805,7 @@
           color: var(--light); }
 
     /* Footer. */
-    ._2AP3i {
+    ._2n0jo {
       border-color: var(--darker) !important;
       background-color: var(--dark) !important; }
       /* Selected image. */
@@ -812,21 +817,18 @@
           outline: 3px solid var(--accent) !important; }
 
   /* Highlight message bubbles. #29 */
-  div.message-in.velocity-animating,
-  div.message-out.velocity-animating {
+  div.message-in.velocity-animating > div > div,
+  div.message-out.velocity-animating > div > div {
     background-color: var(--accent) !important }
-  .tail.velocity-animating > .tail-container {
+  .velocity-animating > .tail > .tail-container {
     border-top-color: var(--accent) !important }
 
-  /* Message bubbles. */
-  .message-in:not(.a81-s), .message-out:not(.a81-s), .message {
+  /* Bubble colors. #49 #54 */
+  .message-in > div:not(.a81-s) > div,
+  .message-out > div:not(.a81-s) > div {
     background-color: var(--darker) !important; }
     ._2v02G {
       color: var(--lighter) !important; }
-
-    /* Bubble colors. #49 */
-    .message-in:not(.a81-s) > div, .message-out:not(.a81-s) > div {
-      background-color: var(--darker) !important; }
 
     /* Message text color. */
     .message-in .selectable-text,
@@ -849,8 +851,8 @@
     ._15aTv {
       color: var(--lighter) !important; }
 
-    /* Read more. */
-    ._2VdJh { color: var(--accent) !important }
+    /* Show more. */
+    ._1Jc9f { color: var(--accent) !important }
 
     /* Deleted message. */
     ._3uHCS { color: var(--lighter) !important }
@@ -915,7 +917,7 @@
       background-color: var(--darker) !important; }
 
     /* Document embeds. */
-    ._3a29n, [title *= 'Download'] > div {
+    ._3a29n, ._1mrMQ {
       background-color: var(--dark) !important; }
 
     /* Embeds description */
@@ -998,11 +1000,11 @@
     z-index: 0 !important;
     border-top: 12px solid var(--darker);
     background: none !important; }
-    .tail.message-in .tail-container {
+    .message-in > .tail > .tail-container {
       left: -10px !important; top: 0px;
       border-left: 10px solid transparent;
       border-radius: 5px 0 0 0; }
-    .tail.message-out .tail-container {
+    .message-out > .tail > .tail-container {
       right: -10px !important; top: 0px;
       border-right: 10px solid transparent;
       border-radius: 0 5px 0 0; }
@@ -1233,6 +1235,8 @@
       opacity: 0.3 !important; }
 
   /* Upload files. */
+  .azEEh { color:var(--light) !important; }
+  ._2sn3C { background-color: var(--darker) !important; }
   .Ijb1Q::after { box-shadow: 0 4px 8px 2px var(--shadow) !important; }
 
   /* Default profile picture background. */
