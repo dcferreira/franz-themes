@@ -1,0 +1,348 @@
+/* 
+ * taken from https://userstyles.org/styles/174811/dark-theme-jira
+ */
+  button, button *, input, input *, textarea, textarea *, form.aui option, .toolbar-trigger.js-default-dropdown, .editable-field:hover, .editable-field:hover *, .toolbar-group.pluggable-ops, .toolbar-group.pluggable-ops *, .bf-nav-filter-container, .bf-nav-filter-container *, .aui-button
+  {
+    background: #000000 !important;
+    color: #ededed !important;
+  }
+
+  .jira-dialog-heading, .jira-dialog-heading *, .buttons-container .buttons-container * .jira-dialog-content, .jira-dialog .jira-dialog-content, .jira-dialog .buttons-container
+  {
+    background: #1a1a1a !important;
+    color: #ededed !important;
+  }
+
+  .atlassian-autocomplete .suggestions li
+  {
+    color: #ededed;
+  }
+
+  .issue-link-summary
+  {
+    color: #325b77 !important;
+  }
+
+  .pagination-view, .issue-list > li
+  {
+    background: #000000 !important;
+  }
+
+  #syntaxplugin span[style*=black]
+  {
+    color: #FFFFFF !important;
+  }
+
+  #syntaxplugin span[style*=blue]
+  {
+    color: #42769a !important;
+  }
+
+  .sla-tag.sla-tag-breached, code
+  {
+    color: #000000;
+  }
+
+  .ghx-swimlane-header:after, .ghx-heading:after, .ghx-issue .ghx-end, .ghx-swimlane-header:hover, .ghx-heading:hover, .ghx-issue .ghx-end:hover, #ghx-pool > div.ghx-swimlane > ul > li > div:hover .ghx-end, .ghx-issue, .ghx-issue.ghx-selected .ghx-end
+  {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .ghx-column.ui-sortable
+  {
+    background: #4d4d4d !important;
+  }
+
+  #ghx-pool
+  {
+    background: inherit;
+  }
+
+  #ghx-column-headers .ghx-column, #ghx-column-headers .ghx-column *
+  {
+    background: #4d4d4d !important;
+    border: none;
+    color: #ededed;
+  }
+
+  #ghx-header
+  {
+    margin: 0;
+  }
+
+  .ghx-column-headers .ghx-column, .ghx-columns .ghx-column
+  {
+    background: #4d4d4d;
+  }
+
+  .ghx-flagged *
+  {
+    background-color: #8b0000;
+  }
+
+  .ghx-columns .ghx-busted, .ghx-columns .ghx-busted-max
+  {
+    background: #8b0000 !important;
+  }
+
+  .ghx-column h2
+  {
+    color: #ededed !important;
+  }
+
+  .ghx-backlog-header, .ghx-end
+  {
+    background: #000000 !important;
+    color: #ededed !important;
+  }
+
+  .aui-badge
+  {
+    background: #ededed !important;
+    color: #000000 !important;
+  }
+
+  .ghx-everything-else
+  {
+    background: #000000 !important;
+  }
+
+  .wiki-edit-toolbar
+  {
+    background: #000000;
+  }
+
+  #issue-tabs > li
+  {
+    background: #000000 !important;
+    color: #ededed;
+  }
+
+  #issue-tabs > li > a
+  {
+    background: #000000 !important;
+    color: #ededed;
+  }
+
+  #issue-tabs > li.active > strong
+  {
+    background: #325b77 !important;
+    color: #ededed;
+  }
+
+  .ops li, .ops li *
+  {
+    background: #000000 !important;
+    color: #ededed;
+  }
+
+  .aui-list, .aui-list *
+  {
+    color: #ededed !important;
+  }
+
+  .aui-dialog .dialog-page-menu
+  {
+    background: #000000 !important;
+  }
+
+  .dropdown-text
+  {
+    background: #000000 !important;
+  }
+
+  html, body header nav.aui-header, body header nav.aui-header *:not(.jira-feedback-plugin-icon), body header.aui-page-panel-nav
+  {
+    background: #000000;
+  }
+
+  .ghx-header *, .issue-header-content, .aui-page-header *, .command-bar, .toggle-title, .saved-search-selector, .saved-search-selector *, .navigator-search, .aui-dropdown2, .aui-page-panel-nav
+  {
+    background: #000000 !important;
+    color: #ededed !important;
+  }
+
+  .aui-sidebar-wrapper, #content .aui-page-panel-nav .tabs.vertical strong
+  {
+    background: #000000 !important;
+    color: #42769a !important;
+  }
+
+  #content .aui-page-panel-nav .tabs.vertical a:focus, #content .aui-page-panel-nav .tabs.vertical a:hover, #content .aui-page-panel-nav .tabs.vertical a:focus *, #content .aui-page-panel-nav .tabs.vertical a:hover *
+  {
+    background: #4d4d4d !important;
+  }
+
+  .aui-navgroup-horizontal .aui-nav > .aui-nav-selected a, .aui-navgroup-vertical .aui-nav .aui-nav-selected a, .aui-nav-vertical .aui-nav .aui-nav-selected a, .aui-nav-selected > a
+  {
+    color: #42769a !important;
+  }
+
+  h1, h2, h4
+  {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+  }
+
+  .user-content-block h1, .user-content-block h2, .user-content-block h3, .user-content-block h4, .user-content-block h5, .user-content-block h6, .user-content-block:hover h1, .user-content-block:hover h2, .user-content-block:hover h3, .user-content-block:hover h4, .user-content-block:hover h5, .user-content-block:hover h6
+  {
+    color: #FFFFFF !important;
+  }
+
+  #footer, #footer *
+  {
+    background: #000000 !important;
+  }
+
+  div:not([class="dashboard-item-header"])
+  {
+    background: #000000 !important;
+  }
+
+  th
+  {
+    background: #000000 !important;
+  }
+
+  td
+  {
+    background: #000000 !important;
+  }
+
+  li
+  {
+    background: #000000 !important;
+  }
+
+  a
+  {
+    color: #5985c6 !important;
+  }
+
+  body
+  {
+    background: #000000 !important;
+  }
+
+  select
+  {
+    background: #000000 !important;
+    color: #5985c6 !important;
+  }
+
+  span
+  {
+    background: #000000 !important;
+    color: #5985c6 !important;
+  }
+
+  .aui-message.hint, .aui-message-hint, .aui-message.info, .aui-message-info, .aui-message, .aui-message.hint *, .aui-message-hint *, .aui-message.info *, .aui-message-info *, .aui-message *
+  {
+    background: #4d4d4d !important;
+  }
+
+  .aui-dialog2-header, .aui-dialog2-footer, .aui-dialog2-header *, .aui-dialog2-footer *
+  {
+    background: #4d4d4d !important;
+    color: #ededed !important;
+  }
+
+  .aui-message
+  {
+    color: #ededed !important;
+  }
+
+  .layout .column .placeholder, .layout .column.empty .empty-text
+  {
+    background: #4d4d4d !important;
+  }
+
+  div#slider-wrapper
+  {
+    background: #4d4d4d !important;
+  }
+
+  .content-container, .bf-gs-content, .bf-gs-section, *
+  {
+    background: #000000;
+    color: #ededed;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+
+
+
+
+
+/* 
+----------------------------------------------------------------------
+                              JIRA
+----------------------------------------------------------------------
+*/
+
+
+/* JIRA - Vorgang / Übersicht; Vorgangsnavigator - Hover */
+  tr:hover *
+  {
+     /* background: darkturquoise !important; */
+    background: gray !important;
+    color: white !important;
+  }
+
+/* JIRA - Linkes Menü; Menüleiste; Vorgangsnavigator - Hover */
+  a:hover *
+  {
+    background: gray !important;
+    color: white !important;
+  }
+
+/* JIRA - Vorang neu Erstellen Dialog - Head + Foot */
+  .jira-dialog-heading, .jira-dialog-heading *, .buttons-container .buttons-container * .jira-dialog-content, .jira-dialog .jira-dialog-content, .jira-dialog .buttons-container
+  {
+    background: black !important;
+  }
+
+/* JIRA - Vorgänge - DropwDown - Highlighting */
+  .aui-dropdown2:hover, .aui-dropdown2.aui-style-default a
+  {
+    background: black !important;
+    color: #ededed !important;
+  }
+
+/* JIRA - Vorgänge - DropwDown - Hover */
+  .aui-dropdown2 li:hover, .aui-dropdown2 li *:hover
+  {
+    background: #4d4d4d !important;
+    border-radius: 12px;
+    border-style: outset;
+  }
+
+/* JIRA - Suche - Highlighting + Hover */
+  .RecentContentItem_result-item-container__iBkZU:hover, .RecentContentItem_result-item-container__iBkZU:focus *, .RecentSpaceItem_recent-space-item-component__1oCK5:hover, .RecentSpaceItem_recent-space-item-component__1oCK5:focus *
+  {
+    background: white !important;
+    border-radius: 12px;
+    border-style: outset;
+  }
+
+
+/* 
+----------------------------------------------------------------------
+						CONFLUENCE
+----------------------------------------------------------------------
+*/
+
+
+
+
+  th.confluenceTh *
+  {
+    background: #000000 !important;
+  }
+
+  td.confluenceTd.highlight-grey *
+  {
+    background: #000000 !important;
+  }
