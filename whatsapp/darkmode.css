@@ -19,7 +19,7 @@
     --shadow: rgba(0,0,0,0.145);
     --sh-h: rgba(0,0,0,0.208);
     --bshadow: 0 2px 4px var(--shadow);
-    --app-width: 1396px;
+    --app-width: 100%;
     --emoji-o: 0.8;
     --bg-image: url("https://images.unsplash.com/photo-1434569117012-ce134ee1a088?fit=crop&w=1280&h=720&q=80");
     --bg-opacity: 0.4;
