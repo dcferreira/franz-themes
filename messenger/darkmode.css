@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.7
+@version		1.0.11
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -63,11 +63,11 @@
 		color: #cecece;
 	}
 
-	._6ymu, ._6-xp {
+	._6ymu, ._6-xp, .hzft2hz5  {
 		background-color: rgba(255, 255, 255, .04);
 	}
 
-	._6ymu path, ._6-xp path {
+	._6ymu path, ._6-xp path, .hzft2hz5 path {
 		fill: #cecece;
 	}
 
@@ -337,6 +337,10 @@
 		color: #9e9e9e;
 	}
 
+	._2zl5 {
+		background-color: #1e1e1e;
+	}
+
 	._2-x5 {
 		background-color: #1e1e1e;
 	}
@@ -351,6 +355,10 @@
 
 	._4gd0 {
 		background-color: #1e1e1e;
+	}
+
+	._13iv div {
+		background-color: #1e1e1e !important;
 	}
 
 	._13iv ._1k1p:hover div {
@@ -413,8 +421,15 @@
 		color: #cecece;
 	}
 
+	._879k {
+		color:rgba(255, 255, 255, .5);
+	}
+
+	._uwe ._uwa {
+		filter: invert(1);
+	}
+
 	/*[[ccb]]*/
-	._nd_ ._hh7._6ybn[style='background-attachment: fixed;background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 153, 255);']{background-color:#006cd1!important}._hh7._6ybn._2f5r{background-color:transparent!important}
 
 	/* > Chat bot options */
 
@@ -500,9 +515,9 @@
 		background-color: rgba(255, 255, 255, .04);
 	}
 
-    ._8slc {
-        color: #cecece;
-    }
+	._8slc {
+		color: #cecece;
+	}
 
 	._33p7 {
 		background-color: rgba(30,30,30,.95);
@@ -675,6 +690,40 @@
 		color: rgba(206, 206, 206, 0.6);
 	}
 
+	/* Report a Problem */
+
+	._4t2a, div._4-i2, div._5a8u {
+		background-color: #1e1e1e;
+	}
+
+	._4-i0 {
+		background-color: #242526;
+		border-color: #3e3e3e;
+	}
+
+	._4-i0 ._52c9, ._uvt {
+		color: #cecece;
+	}
+
+	#bug_report_textarea, .mvs select {
+		background-color: #1e1e1e !important;
+		border-color: #4e4e4e;
+		color: #cecece;
+	}
+	._517h, ._59pe:focus, ._59pe:hover {
+		background-color: #242526;
+		border-color: #3e3e3e;
+		color: #bebebe;
+	}
+
+	._517h:hover {
+		background-color:  #2e2e2e;
+	}
+
+	._5lnf {
+		border-color: #404040;
+	}
+
 	/* Fix for Inbox */
 
 	._2poo {
@@ -718,4 +767,3 @@
 	}
 
 	/*[[sge]]*/
-	._53ij,._1r_9 ._53ij{background-color:#1e1e1e;border:1px solid #464646;}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88);border: 0}._eb3::before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter::after,._3mts .uiScrollableArea.contentAfter::after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7,._49no,._2z8r,._4lh2{background-color:#1e1e1e}._1wc4._5-1q{border-top:0}._1wc4{border-color:#3e3e3e}._3mtr ._4qcs{background:none}._50f9,._2z8r{color:#cecece}._56jc,._1pka ._49no, ._1pka ._2abm, ._1pka ._5exl,._4uvi{border-color:#3e3e3e}#facebook._51l0 ._1c9h ._5fbv,._51l0 ._1-sv,._51l0 ._1-sy ._1-sz::before, ._51l0 ._ipw._1c9h ._1-sz::before{color:rgba(255,255,255,.4)}._4lh2{border-color:rgba(255,255,255,.2)}._3rh0{background:rgba(255,255,255,.05)}._4lh7{color:rgba(255,255,255,.5)}
