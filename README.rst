@@ -20,4 +20,4 @@ Linux
 Default path for the recipes in Linux is ``~/.config/Franz/recipes``.
 So the command is:
 
-``ln -s whatsapp/darkmode.css ~/.config/Franz/recipes/whatsapp/darkmode.css``
+``ln -s $PWD/whatsapp/darkmode.css ~/.config/Franz/recipes/whatsapp/darkmode.css``
